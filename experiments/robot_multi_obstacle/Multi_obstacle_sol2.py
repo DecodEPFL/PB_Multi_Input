@@ -173,7 +173,7 @@ def run_final_visualizations(ctl, sys, loss_fn, args, save_folder):
     test_scenario = generate_slalom_scenario(
         num_obstacles=args.num_obstacles,
         stagger_distance=1.3,
-        fixed_start_point=torch.tensor([-4.0, 3.5]),
+        fixed_start_point=torch.tensor([-3.0, 4.6]),
         fixed_radii=[1.2, 1, 1.1]
     )
 
